@@ -21,7 +21,7 @@ namespace JobApplication.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("JobModel", throwIfV1Schema: false)
         {
         }
 
